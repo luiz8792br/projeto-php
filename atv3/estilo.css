@@ -1,0 +1,108 @@
+#menu_topo{
+    background-color: cornflowerblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Arial';
+}
+
+#rodape{
+    height: 100px;
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#conteudo{
+    border: none;
+    width: 100%;
+    height: 900px;
+    background-color: lightcyan;
+}
+
+.cartoes{
+    font-family: 'Arial';
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    min-width: 200px;
+    max-width: 200px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: all 0.5s;
+
+}
+
+.cartoes:hover{
+    transform: scale(1.2);
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+#produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#caixa_login{
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    box-shadow: 0px 0px 10px blue;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 200px;
+}
+#caixa_login button{
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#caixa_login input{
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#caixa_login h4{
+    text-align: center;
+    font-style: italic;
+    color: red;
+    font-size: 15px;
+    animation: anima1 0.2s forwards;
+    animation-iteration-count: 8;
+    animation-direction: alternate;
+}
+
+
+@keyframes anima1 {
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}

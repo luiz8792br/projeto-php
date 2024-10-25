@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap ');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap ');
+:root{
+    --preto: #040301;
+    --dourado: #9C8050;
+    --branco: #FFFFFF;
+    --cinza_escuro: #0D0D0D;
+    --titulos: 'Abhaya Libre';
+    --textos: 'Saira';
+}
+body{
+    margin: 0px;
+    font-family: var(--textos);
+}
+
+#menu_topo{
+    display: flex;
+    background-color: var(--preto);
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#menu_topo img{
+    height: 80px;
+}
+.btnArea{
+    background-color: var(--dourado);
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+    font-weight: 700;
+    color: var(--branco);
+}
+#foto1{
+    min-height: 400px;
+    height: 40vw;
+    margin-bottom: 50px;
+}
+#secao1{
+    display: flex;
+    background-image: url(imagens/bg1.jpg);
+    background-size: cover;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+#formulario{
+    min-width: 300px;
+    min-height: 500px;
+    max-width: 300px;
+    max-height: 500px;
+    background-color: #48433b89;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--dourado);
+    padding: 40px;
+    margin-right: 80px;
+}
+
+#logomarca{
+    height: 80px;
+}
+#formulario h1{
+    font-family: var(--titulos);
+    color: var(--dourado);
+    text-transform: uppercase; /* texto em maiusculo */
+    font-size: 25px;
+}
+#formulario p{
+    color: var(--branco);
+    font-size: 13px;
+    text-align: justify;
+}
+#formulario input{
+    background-color: #3d3d3dac;
+    border: none;
+    outline: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    color: var(--branco);
+}
+#formulario button{
+    width: 101%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--dourado);
+    color: var(--branco);
+    border: none;
+    outline: none;
+    font-weight: 800;
+}
+#secao2{
+    background-color: var(--preto);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cartoes{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 80px;
+    width: 350px;
+    height: 320px;
+    padding: 30px;
+    background-color: var(--cinza_escuro);
+    border: 1px solid var(--dourado);
+    color: var(--branco);
+}
+.icones{
+    background-color: var(--dourado);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: -55px;
+}
+#secao2 h4{
+    color: var(--dourado);
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: var(--titulos);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#secao3{
+    background-color: var(--cinza_escuro);
+    border-top: 1px solid var(--dourado);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: var(--branco);
+}
+#foto2{
+    min-height: 500px;
+    height: 35vw;
+    margin-bottom: 60px;
+    margin-right: 100px;
+}
+#conteudo_secao3{
+    /* border: 1px solid red; */
+    min-width: 400px;
+    width: 35vw;
+}
+.vantagens{
+    display: flex;
+}
+.icone_vantagem{
+    background-color: var(--dourado);
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+#conteudo_secao3 p{
+    margin-top: -7px;
+}
+
+#conteudo_secao3 h1{
+    font-family: var(--titulos);
+    font-size: 35px;
+    color: var(--dourado);
+}
+
+#secao4{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--dourado);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#secao4 h1{
+    font-family: var(--titulos);
+    text-transform: uppercase;
+    width: 70%;
+    text-align: center;
+    font-weight: 800;
+}
+#secao4 p{
+    font-size: 25px;
+    text-align: center;
+}
+#secao4 form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#secao4 input{
+    min-width: 300px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: #e6cb94;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#secao4 button{
+    border: none;
+    outline: none;
+    min-width: 300px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--cinza_escuro);
+    color: var(--branco);
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+#secao5{
+    background-color: var(--preto);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    color: var(--branco);
+}
+#conteudo_secao5{
+    /* border: 1px solid red; */
+    min-width: 400px;
+    width: 40vw;
+    height: 500px;
+}
+#foto3{
+    min-height: 500px;
+    height: 35vw;
+    margin-bottom: 50px;
+}
+#conteudo_secao5 h1{
+    color: var(--dourado);
+    font-size: 60px;
+    font-family: var(--titulos);
+    text-transform: uppercase; /* texto maiusculo */
+}
+
+#rodape{
+    background-color: var(--cinza_escuro);
+    border-top: 1px solid var(--dourado);
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--branco); 
+    flex-wrap: wrap;
+}
+#mensagem{
+    background-color: var(--cinza_escuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--branco);
+    height: 100vh;
+    text-align: center;
+}
+#mensagem img{
+    width: 30vw;
+}
+@media screen and (max-width:1024px){
+    #formulario{
+        margin: auto;
+    }
+    #foto2{
+        margin-right: 0px;
+    }
+}
